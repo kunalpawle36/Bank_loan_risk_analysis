@@ -16,13 +16,3 @@ This folder contains the raw dataset files used for bank loan risk analysis.
   - Data dictionary describing columns in both `application_data.csv` and `previous_application.csv`.
   - Useful for understanding feature meaning and selecting variables for analysis.
 
-## Usage
-
-1. Keep these files in the `Raw_data/bank_loan_case_study` folder.
-2. Use `columns_description.csv` to interpret the dataset fields.
-3. Load the CSV files into your analysis notebook or script to begin exploration and preprocessing.
-
-## Notes
-
-- These are raw source files and should not be modified directly before data cleaning.
-- The main analysis notebook is located at `EDA_and_cleaning/Python_file/Bank_loan_riskanalysis_KK.ipynb`.

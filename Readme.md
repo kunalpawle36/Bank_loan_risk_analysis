@@ -81,15 +81,5 @@ The notebook performs the following steps:
 3. Update file paths inside the notebook if needed so they point to local dataset files.
 4. Run the notebook cells sequentially to reproduce EDA, cleaning, and feature engineering.
 
-## Notes
 
-- The notebook currently focuses on data preparation and exploratory analysis rather than model training.
-- Some cleaning steps use heuristics and may require refinement for production use.
-- The feature engineering steps create useful derived columns for later modeling.
 
-## Next Steps
-
-- add predictive modeling for loan default or payment difficulty
-- evaluate models using cross-validation and business metrics
-- perform deeper feature selection and hyperparameter tuning
-- build an end-to-end pipeline for scoring new loan applications
